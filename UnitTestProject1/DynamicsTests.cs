@@ -28,9 +28,6 @@ namespace UnitTestProject1
                 xrmApp.OnlineLogin.Login(_xrmUri, _username, _password, _mfaSecretKey);
 
                 xrmApp.Dispose();
-
-
-
             }
         }
     }
